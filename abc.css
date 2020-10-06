@@ -1,0 +1,252 @@
+html { 
+  background: url("bg.jpg") no-repeat 
+    center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.back{
+min-height: 100%;
+   background-image: url(bg.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+.text{
+font-family: 'Tangerine', cursive;
+color:pink;
+font-size: 60px;
+display:block;
+margin:auto;
+width:14%;
+font-align:left;
+}
+[data-tab-content] {
+  
+display: none;
+background: url("bg.jpg") no-repeat 
+    center center fixed; 
+  -webkit-background-size
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.tabs {
+ display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid brown;
+font-align:left;
+}
+
+.tab {
+ font-size:25px;
+font-weight:bold;
+color:yellow;
+font-family: 'Parisienne', cursive;
+  cursor: pointer;
+  padding: 10px;
+
+font-align:left;
+}
+
+
+.tab.active {
+ background-color: brown;
+  width:20%
+}
+
+.tab:hover {
+  background-color: brown;
+}
+
+.tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 70%;
+height:20%;
+left:150px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.jkl{
+position:center;
+}
+.jkl h4{
+color:white;
+}
+.efg{
+color:white;
+}
+.efg h4{
+font-size:20px;
+}
+.efg p{
+font-size:10px;
+}
+.efg .fd{
+right:100%;
+}
+.card3{
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 70%;
+height:50%;
+left:30px;
+color:white;
+}
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.op{
+color:white;
+left:20px;
+position:relative ;
+}
+.op h4{
+font-size:20px;
+}
+.op p{
+font-size:10px;
+}
+
+
+
+
+.lp{
+color:white;
+font-size:25px;
+font-family: 'Rancho', cursive;
+}
+.zx{
+color:white;
+font-size:20px;
+font-family: 'Rancho', cursive;
+}
+
+
+.image{
+width:100%;
+border-radius: 45px;
+}
+
+.menu{
+color:white;
+font-size:25px;
+font-family: 'Rancho', cursive;
+}
+.me{
+color:white;
+font-size:25px;
+font-family: 'Rancho', cursive;
+}
+.menu1{
+font-family: 'Rancho', cursive;
+color:white;
+font-size:25px;
+
+}
+.img2{
+border-radius: 45px;
+width:100%;
+height:30%;
+}
+.raita{
+border-radius: 45px;
+width:95%;
+height:25%;
+}
+.design{
+color:white;
+font-size:25px;
+font-family: 'Rancho', cursive;
+}
+.cona{
+font-family: 'Rancho', cursive;
+font-size:25px;
+}
+.conb{
+font-family: 'Rancho', cursive;
+color:white;
+font-size:25px;
+}
+.conc{
+font-family: 'Rancho', cursive;
+font-size:25px;
+}
+.ee{
+color:white;
+}
+.ff{
+width:80%;
+height:250px;
+}
+.pp{
+width:250px;
+height:250px;
+}
+.ll{
+width:300px;
+height:350px;
+right:300px;
+}
+.pud{
+width:300px;
+height:300px;
+}
+
+.cf{
+width:200px;
+height:200px;
+align:center;
+}
+.num{
+color:white;
+font-family: 'Tangerine', cursive;
+font-size:30px;
+}
+.num h2{
+font-size:40px;
+}
+.cona{
+
+left:50px;
+}
+
+.cona .hed{
+font-size:20px;
+color:white;
+}
+.cona .pl{
+color:white;
+}
+.cke{
+width:300px;
+height:350px;
+}
+.lo{
+width:350px;
+height:250px;
+}
